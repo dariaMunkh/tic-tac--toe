@@ -3,7 +3,10 @@ A command-line Tic-Tac-Toe game where you face a strong AI opponent! Built with 
 
 ## How It's Made:
 **Tech used:** Java
-This project was built using pure Java with an object-oriented approach. The core of the game revolves around five main classes that work together seamlessly:
+
+This project was built using Java with an object-oriented approach. The core of the game revolves around five main classes that work together:
+
+
 The TicTacToe class handles all the game board logic - checking wins, losses, draws, and generating all possible next moves. I implemented a deep copy mechanism here so that when the AI explores different move possibilities, it doesn't mess with the actual game state.
 The Player abstract class serves as the blueprint for different player types, which allowed me to create both human and AI players that the game can treat the same way. This is where object-oriented design really shines!
 The AIPlayer is where the magic happens. I implemented the Minimax algorithm with recursive maxValue() and minValue() methods. The AI literally explores every possible game outcome from any position and chooses the move that guarantees the best result. It simulates the entire game tree - if the AI finds a winning path, it takes it; if all paths lead to a loss, it picks the one that delays defeat the longest; and if a draw is the best outcome, it plays for that.
