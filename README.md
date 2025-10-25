@@ -34,6 +34,12 @@ java Game
 ## Gameplay
 
 You play as X and always go first
+
+
 The AI plays as O
+
+
 Enter the number of your desired move when prompted
+
+
 Try to achieve a draw - the AI cannot be beaten!
