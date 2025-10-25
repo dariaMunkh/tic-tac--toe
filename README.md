@@ -26,7 +26,8 @@ I also learned you can't just change the game board while the AI is thinking. My
 javac *.java
 
 3. Run the game:
-4. 
+
+
 java Game
 
 
